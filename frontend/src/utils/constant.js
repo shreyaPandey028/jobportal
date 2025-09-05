@@ -1,5 +1,7 @@
 
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5011";
+
 export const USER_API_END_POINT = "http://localhost:5011/api/v1/user";
 export const JOB_API_END_POINT = "http://localhost:5011/api/v1/job";
 export const APPLICATION_API_END_POINT = "http://localhost:5011/api/v1/application";
